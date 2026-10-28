@@ -8,13 +8,13 @@
 </head>
 <body>
 
-    <header id="inicio">
+    <header>
         <h1>Tutorial básico de HTML</h1>
-        <p>Aprende los conceptos principales para crear tu primera página web.</p>
+        <p>Aprende los conceptos principales para crear tu primera página web</p>
     </header>
 
     <nav>
-        <h2>Contenido</h2>
+        <h2>Contenido del tutorial</h2>
         <ol>
             <li><a href="#que-es">¿Qué es HTML?</a></li>
             <li><a href="#estructura">Estructura de una página</a></li>
@@ -25,69 +25,83 @@
         </ol>
     </nav>
 
+    <!-- Temas -->
     <main>
 
         <section id="que-es" class="tema">
-            <h2>1. ¿Qué es HTML?</h2>
             <img src="img/html.png" alt="Logo de HTML">
-            <p>HTML significa <strong>HyperText Markup Language</strong> (Lenguaje de Marcado de Hipertexto).
-               Es el lenguaje que se usa para crear la estructura de las páginas web.
-               Funciona por medio de <em>etiquetas</em>, que se escriben entre los signos &lt; y &gt;.</p>
-            <a href="#inicio" class="volver">Volver al inicio</a>
+            <div class="texto">
+                <span class="numero">Tema 1</span>
+                <h2>¿Qué es HTML?</h2>
+                <p>HTML significa <strong>HyperText Markup Language</strong>. Es el lenguaje que se usa
+                   para crear la estructura de las páginas web. Funciona por medio de <em>etiquetas</em>,
+                   que se escriben entre los signos &lt; y &gt;.</p>
+            </div>
         </section>
 
         <section id="estructura" class="tema">
-            <h2>2. Estructura de una página</h2>
             <img src="img/estructura.png" alt="Estructura básica de un documento HTML">
-            <p>Toda página HTML tiene una estructura básica. La etiqueta <code>&lt;html&gt;</code>
-               encierra todo el documento. En <code>&lt;head&gt;</code> va la información de la página,
-               como el título. En <code>&lt;body&gt;</code> va todo lo que se ve en pantalla.</p>
-            <a href="#inicio" class="volver">Volver al inicio</a>
+            <div class="texto">
+                <span class="numero">Tema 2</span>
+                <h2>Estructura de una página</h2>
+                <p>La etiqueta <code>&lt;html&gt;</code> encierra todo el documento. En
+                   <code>&lt;head&gt;</code> va la información de la página, como el título, y en
+                   <code>&lt;body&gt;</code> va todo lo que se ve en pantalla.</p>
+            </div>
         </section>
 
         <section id="titulos" class="tema">
-            <h2>3. Títulos y párrafos</h2>
             <img src="img/titulos.png" alt="Ejemplo de títulos y párrafos">
-            <p>Los títulos se crean con las etiquetas <code>&lt;h1&gt;</code> hasta <code>&lt;h6&gt;</code>.
-               El <code>&lt;h1&gt;</code> es el más grande y el <code>&lt;h6&gt;</code> el más pequeño.
-               Los párrafos de texto se escriben con la etiqueta <code>&lt;p&gt;</code>.</p>
-            <a href="#inicio" class="volver">Volver al inicio</a>
+            <div class="texto">
+                <span class="numero">Tema 3</span>
+                <h2>Títulos y párrafos</h2>
+                <p>Los títulos se crean con las etiquetas <code>&lt;h1&gt;</code> hasta
+                   <code>&lt;h6&gt;</code>, siendo <code>&lt;h1&gt;</code> el más grande. Los párrafos
+                   se escriben con la etiqueta <code>&lt;p&gt;</code>.</p>
+            </div>
         </section>
 
         <section id="listas" class="tema">
-            <h2>4. Listas</h2>
             <img src="img/listas.png" alt="Ejemplo de listas en HTML">
-            <p>En HTML hay dos tipos de listas principales:</p>
-            <ul>
-                <li><strong>Lista ordenada</strong> <code>&lt;ol&gt;</code>: muestra los elementos con números.</li>
-                <li><strong>Lista desordenada</strong> <code>&lt;ul&gt;</code>: muestra los elementos con viñetas.</li>
-            </ul>
-            <p>Cada elemento de la lista se escribe con la etiqueta <code>&lt;li&gt;</code>.</p>
-            <a href="#inicio" class="volver">Volver al inicio</a>
+            <div class="texto">
+                <span class="numero">Tema 4</span>
+                <h2>Listas</h2>
+                <p>Hay dos tipos principales de listas:</p>
+                <ul>
+                    <li><code>&lt;ol&gt;</code> lista ordenada, con números.</li>
+                    <li><code>&lt;ul&gt;</code> lista desordenada, con viñetas.</li>
+                </ul>
+                <p>Cada elemento se escribe con <code>&lt;li&gt;</code>.</p>
+            </div>
         </section>
 
         <section id="enlaces" class="tema">
-            <h2>5. Enlaces</h2>
             <img src="img/enlaces.png" alt="Ejemplo de enlaces en HTML">
-            <p>Los enlaces permiten ir a otra página o a otra parte de la misma página.
-               Se crean con la etiqueta <code>&lt;a&gt;</code> y el atributo <code>href</code>,
-               donde se coloca la dirección a la que se quiere ir.</p>
-            <a href="#inicio" class="volver">Volver al inicio</a>
+            <div class="texto">
+                <span class="numero">Tema 5</span>
+                <h2>Enlaces</h2>
+                <p>Los enlaces permiten ir a otra página o a otra parte de la misma página. Se crean
+                   con la etiqueta <code>&lt;a&gt;</code> y el atributo <code>href</code>, donde va la
+                   dirección de destino.</p>
+            </div>
         </section>
 
         <section id="imagenes" class="tema">
-            <h2>6. Imágenes</h2>
             <img src="img/imagenes.png" alt="Ejemplo de imágenes en HTML">
-            <p>Para mostrar una imagen se usa la etiqueta <code>&lt;img&gt;</code>. El atributo
-               <code>src</code> indica dónde está guardada la imagen y el atributo <code>alt</code>
-               describe la imagen por si no se puede mostrar.</p>
-            <a href="#inicio" class="volver">Volver al inicio</a>
+            <div class="texto">
+                <span class="numero">Tema 6</span>
+                <h2>Imágenes</h2>
+                <p>Las imágenes se agregan con la etiqueta <code>&lt;img&gt;</code>. El atributo
+                   <code>src</code> indica dónde está la imagen y <code>alt</code> la describe por si
+                   no se puede mostrar.</p>
+            </div>
         </section>
 
     </main>
 
     <footer>
-        <p>Evidencia GA6-220501096-AA4-EV01 &mdash; Elaborado por: <strong>Dairo Jesús Vergara Castañeda</strong></p>
+        <p>Evidencia GA6-220501096-AA4-EV01</p>
+        <p>Elaborado por: Dairo Vergara</p>
     </footer>
 
 </body>
